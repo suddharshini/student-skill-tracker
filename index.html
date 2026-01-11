@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Skill Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Skill Tracker</h1>
+
+        <div class="form">
+            <input type="text" id="skillInput" placeholder="Enter skill">
+            <select id="levelInput">
+                <option value="">Select level</option>
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+            </select>
+            <button onclick="addSkill()">Add Skill</button>
+        </div>
+
+        <ul id="skillList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
